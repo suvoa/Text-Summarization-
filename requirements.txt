@@ -1,0 +1,6 @@
+transformers>=4.48.0
+datasets>=3.3.0
+rouge-score>=0.1.2
+torch>=2.0.0
+pandas
+numpy
