@@ -1,0 +1,16 @@
+## Results
+
+Performance comparison of different summarization models on the GovReport dataset:
+
+| Model | ROUGE-1 | ROUGE-2 | ROUGE-L | Inference Time (s) |
+|-------|---------|---------|---------|-------------------|
+| PEGASUS | 0.0759 | 0.0286 | 0.0601 | 1.23 |
+| FLAN-T5 | 0.0911 | 0.0409 | 0.0754 | 1.56 |
+| mT5 | 0.0757 | 0.0190 | 0.0568 | 2.12 |
+
+
+### Analysis
+
+- **PEGASUS** showed the most concise summaries but missed some key details
+- **FLAN-T5** achieved the highest ROUGE scores, with better capture of important information
+- **mT5** struggled with longer documents but performed well on shorter inputs
